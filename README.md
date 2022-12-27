@@ -22,4 +22,10 @@ python src/manage.py migrate
 Then, you can run the dashboard by running the following command:
 ```
 streamlit run src/app.py
+
+```
+## How to Deploy
+To deploy the dashboard, you need to have a Heroku account. Then, you can deploy the dashboard by running the following command;
+```
+git push heroku master
 ```
